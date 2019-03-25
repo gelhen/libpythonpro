@@ -8,3 +8,4 @@ Link do curos [Python Pro](https://www.python.pro.br)
 Tópicos a serem abordados:
  1. Geit
  2. Virtualenv
+ 3. Pip
