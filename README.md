@@ -7,7 +7,18 @@ Link do curso [Python Pro](https://www.python.pro.br)
 
 Suportada versão 3 de Python
 
+```console
+pyhton3 -m venv .venv
+source .venv/bin/activate
+pip install -r requerements-dev.txt
+```
+
+Para conferir qualidade de código
+````console
+flake8
+````
+
 Tópicos a serem abordados:
  1. Git
  2. Virtualenv
- 3. Pip
+ 3. Pippython
