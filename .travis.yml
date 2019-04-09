@@ -3,8 +3,6 @@ python:
   - 3.6
 install:
   - pip install -r requirements-dev.txt codecov
-env:
-  CODECOV_TOKEN="08b09202-76fa-4533-9276-cb172edf464e"
 script:
   - flake8
   - pytest libpythonpro --cov=libpythonpro
