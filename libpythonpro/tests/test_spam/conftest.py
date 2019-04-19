@@ -5,7 +5,7 @@ from libpythonpro.spam.db import Conexao
 
 @pytest.fixture(scope='session')
 def conexao():
-    #primeiro setup
+    # primeiro setup
     conexao_obj = Conexao()
     yield conexao_obj
     # por dim tear down

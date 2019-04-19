@@ -1,7 +1,5 @@
 from unittest.mock import Mock
-
 import pytest
-
 from libpythonpro import github_api
 
 
@@ -18,9 +16,11 @@ def avatar_url(mocker):
     get_mock.return_value = resp_mock
     return url
 
+
 def test_buscar_avatar(avatar_url):
     url = github_api.buscar_avatar('gelhen')
     assert avatar_url == url
+
 
 def test_buscar_avatar_integracao():
     url = github_api.buscar_avatar('gelhen')
