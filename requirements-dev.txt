@@ -4,7 +4,7 @@ pycodestyle==2.5.0
 pyflakes==2.1.1
 
 # Deps do pytest
-py==1.8.0
+py==1.9.0
 more-itertools==7.0.0
 six==1.12.0
 attrs==19.1.0
