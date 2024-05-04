@@ -14,6 +14,6 @@ pytest-mock==1.10.3
 
 
 #Coverage
-coverage==4.5.3
+coverage==7.5.1
 pytest-cov==2.6.1
 -r requirements.txt
